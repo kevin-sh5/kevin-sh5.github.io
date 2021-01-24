@@ -1977,7 +1977,7 @@
 			padding-left: 0.25em;
 		}
 
-	ul {
+	ul { 
 		list-style: disc;
 		margin: 0 0 2em 0;
 		padding-left: 1em;
@@ -2220,16 +2220,7 @@
 		background-color: #FF6382;
 		border-radius: 4px;
 		border: 0;
-		color: !important;
-		cursor: pointer;
-		display: inline-block;
-		font-weight: 200;
-		height: 2.85em;
-		line-height: 2.95em;
-		padding: 0 1.5em;
-		text-align: center;
-		text-decoration: none;
-		white-space: nowrap;
+
 	}
 
 		input[type="submit"]:hover,
@@ -2330,7 +2321,7 @@
 		button.special,
 		.button.special {
 			background-color: #FF6382;
-			color: !important;
+			
 		}
 
 			input[type="submit"].special:hover,
@@ -2688,7 +2679,7 @@
 		  
 		  #myDiv {
 			display: none;
-			background-image: url(../../images/bg.png);
+			background-image: url(../../images/bg.jpg);
 			background-size: cover;
 		background-position: top center;
 		  }
