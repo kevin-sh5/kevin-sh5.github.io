@@ -4,6 +4,18 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
+/*loader*/
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+
 $(function() {
 
 	// Vars.
@@ -35,14 +47,3 @@ $(function() {
 		});
 
 });
-/*loader*/
-var myVar;
-
-function myFunction() {
-  myVar = setTimeout(showPage, 3000);
-}
-
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}
