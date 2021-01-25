@@ -2361,8 +2361,7 @@
 			.button {
 				padding: 0;
 			}
-
-		}
+			
 
 /* Thumbnails */
 
@@ -2615,7 +2614,7 @@
 			}
 
 		}
-
+		
 /* Footer */
 
 	#footer {
@@ -2690,3 +2689,4 @@
 			background-size: cover;
 		background-position: top center;
 		  }
+		}
