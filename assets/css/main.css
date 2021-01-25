@@ -1449,17 +1449,11 @@
 
 	a {
 		color: inherit;
-		text-decoration: none;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.486);
-		-moz-transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-webkit-transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-ms-transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition: border-bottom-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		text-decoration: underline;
 	}
-
 		a:hover {
 			color: #ffffff;
-			border-bottom-color: transparent;
+			text-decoration: none;
 		}
 
 	strong, b {
@@ -1474,6 +1468,7 @@
 	p {
 		margin: 0 0 2em 0;
 		color: rgba(196, 194, 194, 0.856);
+		text-align: center;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1900,7 +1895,8 @@
 			}
 
 			.icon.style2:hover {
-				background-color: rgba(255, 255, 255, 0.25);
+				background-color: rgba(255, 255, 255, 0.144);
+				border: solid 1px rgba(18, 218, 134, 0.445);
 			}
 
 			@media screen and (max-width: 736px) {
@@ -2399,6 +2395,7 @@
 			cursor: pointer;
 			outline: 0;
 			overflow: hidden;
+			text-decoration: none;
 		}
 
 			.thumbnails a img {
@@ -2406,6 +2403,7 @@
 				width: 100%;
 				border-top-left-radius: 4px;
 				border-top-right-radius: 4px;
+				text-decoration: none;
 			}
 
 			.thumbnails a h3 {
@@ -2591,14 +2589,22 @@
 			display: inline-block;
 			margin: 0 0 2em 0;
 			padding: 0.5em;
-			border: solid 1px rgba(255, 255, 255, 0.25);
+			border: solid 2px rgba(255, 6, 6, 0.452);
+			background-color: rgba(255, 255, 255, 0.075);
+		}
+		#header .avatar:hover {
+			border-radius: 100%;
+			display: inline-block;
+			margin: 0 0 2em 0;
+			padding: 0.5em;
+			border: solid 2px rgba(6, 255, 201, 0.486);
 			background-color: rgba(255, 255, 255, 0.075);
 		}
 
 			#header .avatar img {
 				border-radius: 100%;
 				display: block;
-				width: 11em;
+				width: 11.5em;
 				height: 11em;
 			}
 
