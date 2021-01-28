@@ -2658,6 +2658,7 @@
 			border: solid 2px rgba(6, 255, 201, 0.486);
 			background-color: rgba(255, 255, 255, 0.075);
 		}
+		
 
 			#header .avatar img {
 				border-radius: 100%;
@@ -2681,7 +2682,12 @@
 		padding: 4em 0 4em 0;
 		background-color: #000;
 	}
-
+	#footer a{
+			color:inherit
+	}
+	 	#footer a:hover{
+			color: rgb(193, 199, 204);
+	}
 		#footer:before {
 			content: '';
 			border-top: solid 1px rgba(255, 255, 255, 0.25);
