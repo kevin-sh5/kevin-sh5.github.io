@@ -1,7 +1,131 @@
 body{
     text-align: center;
+    background-color: rgb(40, 40, 40);
+    margin: 0;
+    padding: 0;
 }
 
-h1{
+div.menu{
+    position: sticky;
+    top: 0;
+    background-color: red;
+    height: 100px;
+}
+
+div.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+
+div.menu ul li {
+    width: 33.33%;
+    float: left;
+    height: 100px;
+}
+
+div.menu ul li a {
+    display: flex;              
+    justify-content: center;    
+    align-items: center;        
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: 700;          
+    font-style: italic;        
+    letter-spacing: 2px;                 
+}
+
+div.menu ul li a img {
+    height: 100px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+div.menu li a:hover {
+    background-color: white;
+    transition: 1s;
+}
+
+
+/* Stili per il contenuto principale della Home Page */
+.main-contenuto {
+    max-width: 60%;
+    margin: 40px auto;
+    padding: 20px;
+    color: #e0e0e0; /* Testo chiaro per il tuo sfondo rgb(40,40,40) */
+    font-family: sans-serif;
+    text-align: left; /* Migliora la leggibilità dei paragrafi lunghi */
+}
+
+.main-contenuto h1 {
+    color: red; /* Rosso racing */
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-contenuto h2 {
+    color: white;
+    font-size: 1.8em;
+    border-bottom: 2px solid red;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+.main-contenuto p {
+    line-height: 1.6;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.main-contenuto ul {
+    line-height: 1.6;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.main-contenuto li {
+    margin-bottom: 10px;
+}
+
+.main-contenuto a {
     color: red;
+    text-decoration: underline;
+}
+
+.main-contenuto a:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+.sezione {
+    margin-bottom: 200px;
+}
+
+
+.immagine {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.contenuto-img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5); 
+}
+
+.immagine-caption {
+    font-size: 0.9em;
+    color: #a0a0a0;
+    margin-top: 10px;
+    font-style: italic;
+    text-align: center;
 }
