@@ -147,6 +147,6 @@ div.menu li a:hover {
         color: #ffffff;
         font-size: 1.1em;
     }
-    .f1-table tbody tr:hover {
+    .f1-table tbody td:hover {
         background-color: #333;
     }
