@@ -85,7 +85,6 @@ div.menu li a:hover {
 }
 
 .main-contenuto ul {
-    line-height: 1.6;
     font-size: 1.1em;
     margin-bottom: 20px;
     padding-left: 20px;
@@ -129,3 +128,25 @@ div.menu li a:hover {
     font-style: italic;
     text-align: center;
 }
+
+
+.f1-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: sans-serif;
+        color: #e0e0e0;
+        margin: 20px 0;
+    }
+    .f1-table th, .f1-table td {
+        border: 1px solid #555;
+        padding: 12px;
+        text-align: left;
+    }
+    .f1-table th {
+        background-color: #ff1801;
+        color: #ffffff;
+        font-size: 1.1em;
+    }
+    .f1-table tbody tr:hover {
+        background-color: #333;
+    }
