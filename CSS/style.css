@@ -30,7 +30,7 @@ div.menu ul li a {
     justify-content: center;    
     align-items: center;        
     text-decoration: none;
-    color: black;
+    color: white;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -49,6 +49,7 @@ div.menu ul li a img {
 
 div.menu li a:hover {
     background-color: white;
+    color: black;
     transition: 1s;
 }
 
